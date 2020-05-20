@@ -12,12 +12,12 @@ public class Cambio {
 
 		double real, dolar, cotação = 4.5;
 
-		System.out.println("Please type in how much real do you want in to change in dollar.");
+		System.out.println("Please enter how much real do you want in to change in dollar.");
 		real = input.nextDouble();
 
-		dolar = cotação * real;
+		dolar = real / cotação;
 
-		System.out.printf("Your value in dollar will be %2f", dolar);
+		System.out.println("Your value in dollar will be " + dolar);
 
 	}
 

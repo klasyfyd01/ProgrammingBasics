@@ -9,7 +9,7 @@ public class CheapestProduct {
 
 	public static void main(String[] args) {
 
-		double firProduct, secproduct, thirPoduct ;
+		double firProduct, secproduct, thirPoduct;
 
 		Scanner input = new Scanner(System.in);
 
@@ -19,11 +19,11 @@ public class CheapestProduct {
 		thirPoduct = input.nextDouble();
 
 		if (firProduct < secproduct && firProduct < thirPoduct) {
-			System.out.printf("The cheapest product is %2f", firProduct);
+			System.out.printf("The cheapest product is " + firProduct);
 		} else if (secproduct < firProduct && secproduct < thirPoduct) {
-			System.out.printf("The cheapest product is %2f", secproduct);
+			System.out.printf("The cheapest product is " + secproduct);
 		} else if (thirPoduct < secproduct && thirPoduct < firProduct) {
-			System.out.printf("The cheapest product is %2f", thirPoduct);
+			System.out.printf("The cheapest product is " + thirPoduct);
 		}
 
 	}

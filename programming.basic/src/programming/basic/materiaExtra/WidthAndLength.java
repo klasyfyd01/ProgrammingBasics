@@ -20,7 +20,7 @@ public class WidthAndLength {
 
 		P = unitValue * (L * C);
 
-		System.out.printf("The price of fencing your house is %2f", P);
+		System.out.println("The price of fencing your house is  " + P);
 
 	}
 

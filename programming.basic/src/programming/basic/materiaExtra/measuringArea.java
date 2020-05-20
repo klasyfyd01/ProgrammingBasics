@@ -16,7 +16,7 @@ public class measuringArea {
 		
 		H = M * 0.0001;
 		
-		System.out.printf("Your area in hectares is %2f", H);
+		System.out.printf("Your area in hectares is " + H);
 		
 	        
 	        

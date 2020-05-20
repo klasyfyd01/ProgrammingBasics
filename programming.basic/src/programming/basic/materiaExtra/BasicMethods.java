@@ -6,7 +6,7 @@ package programming.basic.materiaExtra;
 //2. Faça uma função que receba um vetor de inteiros e retorne o maior valor.
 
 //3. Faça uma função que receba um vetor de reais e retorne a média dele.
-public class SumOfNumbers {
+public class BasicMethods {
 
 	public static void main(String[] args) {
 
